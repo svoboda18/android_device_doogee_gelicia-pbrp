@@ -13,10 +13,6 @@
 /expdb           emmc      /dev/block/platform/bootdevice/by-name/expdb
 /seccfg          emmc      /dev/block/platform/bootdevice/by-name/seccfg
 
-/system_image	 emmc      /dev/block/dm-1					flags=backup=1;wipeingui;flashimg=1;display="System Image";
-/vendor_image	 emmc      /dev/block/dm-2					flags=backup=1;wipeingui;flashimg=1;display="Vendor Image";
-/product_image	 emmc      /dev/block/dm-0					flags=backup=1;wipeingui;flashimg=1;display="Product Image";
-
 # IMEI and modem related
 # below four partitions are ext4, but we are using only for backup so emmc
 /protect_f       emmc      /dev/block/platform/bootdevice/by-name/protect1    flags=backup

@@ -14,6 +14,6 @@
         <fqname>@1.2::IServiceManager/default</fqname>
     </hal>
     <vendor-ndk>
-        <version>29</version>
+        <version>30</version>
     </vendor-ndk>
 </manifest>

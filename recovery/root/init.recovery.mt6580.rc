@@ -5,7 +5,7 @@ on fs
     install_keyring
 
 on boot
-    start health-hal-2-0
+    start health-hal-2-1
 
 service keystore_auth /system/bin/keystore_auth
     oneshot

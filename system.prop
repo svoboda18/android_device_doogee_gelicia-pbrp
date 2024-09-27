@@ -1,4 +1,4 @@
 ro.mediatek.platform=MT6580
 ro.vendor.mediatek.platform=MT6580
-ro.crypto.fde_algorithm=adiantum
+ro.crypto.fde_algorithm=adiantum:v2
 ro.crypto.volume.filenames_mode=aes-256-cts

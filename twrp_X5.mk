@@ -16,7 +16,7 @@ PRODUCT_BRAND := DOOGEE
 PRODUCT_MODEL := X5
 PRODUCT_MANUFACTURER := DOOGEE
 
-PRODUCT_SHIPPING_API_LEVEL := 29
+PRODUCT_SHIPPING_API_LEVEL := 30
 
 # Dynamic Partition
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
@@ -27,8 +27,8 @@ PRODUCT_PACKAGES += \
 
 # Health HAL
 PRODUCT_PACKAGES += \
-    android.hardware.health@2.0-service \
-    android.hardware.health@2.0-impl
+    android.hardware.health@2.1-service \
+    android.hardware.health@2.1-impl
 
 # Gatekeeper
 PRODUCT_PACKAGES += \

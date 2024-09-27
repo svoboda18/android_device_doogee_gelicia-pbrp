@@ -50,10 +50,14 @@
 /dev/btif                 0600   system     system
 
 # Trusty driver
-/dev/trusty-ipc-dev0      0660   system     drmrpc
+/dev/trusty-ipc-dev0      0660   system     keystore
 
 # RPMB (for Trusty)
 /dev/block/mmcblk0rpmb    0660   root       system
+
+# fingerprint silead begin
+/dev/silead_fp 0660 system system 
+/dev/silead_spi 0660 system system
 
 # add the read write right of ttyUSB*
 /dev/bus/usb/*     	  0660   root       usb
@@ -122,3 +126,7 @@
 
 #MTK In-House TEE
 /dev/ttyACM0              0660   radio      radio
+
+/dev/tkcoredrv            0660   root     system
+/dev/mmcblk0rpmb          0660   root     system
+/dev/rpmb0                0660   root     system
